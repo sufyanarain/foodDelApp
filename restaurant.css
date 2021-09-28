@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --main-color : #f74d14;
+}
+
+.btn{
+    
+}
+
+.navbar{
+    background-color: var(--main-color) !important;
+}
+
+#selectCategory{
+    width: 300px;
+}
+
+.mainDiv{
+    display: flex;
+}
+
+#cartView{
+    width: 430px;
+    /* flex: 3; */
+    background-color: blue;
+    /* flex: 4; */
+
+}
+
+#parentDiv{
+    /* flex: 1; */
+}
+
+#showDishes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex: 2; */
+}
+
+.card{
+    margin: 10px;
+    overflow: hidden;
+    
+}
+
+.card img{
+    height: 200px;
+    padding: 4px 4px 0px 4px;
+    transition: .25s;
+
+}
+.card img:hover{
+    transform: scale(1.1);
+    
+}
+
+#orderCounter{
+    display: flex;
+    justify-content: center;
+}
+#orderCounter button,a{
+    margin: 0px 10px;
+    height: 40px;
+}
+
+#orderBtn{
+    margin-right: 30px;
+    /* height: 40px; */
+}
+
+
+#counter{
+    min-width: 47px;
+    /* height: 45px; */
+}
+
+
+#orderCounter{
+    /* background-color: rgb(202, 29, 29); */
+    /* margin-top: -10px; */
+    margin-bottom: -10px;
+}
+
+.bi-cart-check{
+    font-size: 23px !important;
+    color: rgb(88, 88, 88);
+    font-family: 'Poppins', sans-serif !important;
+    /* padding: 3px 8px; */
+    
+
+}
+
+#cartBtn{
+    width: 120px;
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(88, 88, 88);
+    border: 1px solid rgb(88, 88, 88);
+    height: 45px;
+}

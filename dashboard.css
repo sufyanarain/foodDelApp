@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.dashboardDiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-color: brown; */
+}
+
+#pendingOrders{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    min-height: 70vh;
+}
+
+#acceptedOrders{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    min-height: 70vh;
+}
+
+#deliveredOrders{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    min-height: 70vh;
+}
+
+.card{
+    margin: 0px 8px;
+    width: 220px;
+}
+
+.accepRejBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+#pending,#accepted,#delivered{
+    /* background-color: blueviolet; */
+    margin: 10px 10px;
+    width: 250px;
+    /* width: 30vw;
+    height: 65vh; */
+    /* border: 1px solid #ccc; */
+}

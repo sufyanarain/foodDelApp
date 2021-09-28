@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#showDishes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px;
+}
+
+.card img{
+    height: 200px;
+    padding: 4px 4px 0px 4px;
+
+}
+
+#orderCounter{
+    display: flex;
+    justify-content: center;
+}
+#orderCounter button,a{
+    margin: 0px 10px;
+    height: 40px;
+}
+
+#orderBtn{
+    margin-right: 30px;
+    /* height: 40px; */
+}
+
+
+#counter{
+    width: 40px;
+    /* height: 45px; */
+}

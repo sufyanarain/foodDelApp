@@ -1,0 +1,16 @@
+
+
+
+.card{
+    margin: 10px 5px;
+}
+
+#statusBtn{
+    width: 100%;
+}
+
+#ordersDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

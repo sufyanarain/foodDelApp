@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --main-color : #0d6efd;
+}
+
+.navbar{
+    background-color: var(--main-color) !important;
+}
+
+
+#login{
+    width: 150px;
+}
+
+#loginError{
+    color: red !important;
+}
